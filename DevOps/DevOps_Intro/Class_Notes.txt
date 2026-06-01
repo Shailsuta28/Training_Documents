@@ -1,0 +1,290 @@
+		
+######################
+Day 1 - 1st June 2026
+######################
+
+	Module 1 : DevOps Introduction :
+	
+	Introduction to DevOps ::::
+	
+	What is DevOps ?
+	
+		- Improve efficiency 
+		- Automate work
+		- Opr & Dev 
+		
+
+	IT Services:
+	
+	Software / Applications 
+	
+		- Mobile Applications
+		
+		- Web Applications
+		
+		- Embedded Applications - IoT Service 
+	
+		- Desktops Applications
+	
+	
+	SDLC : Software Development Life Cycle ::
+	
+		- Requirement Analysis 
+		
+		- Design & Document 
+		
+		- Code & Development
+		
+		- Test 
+		
+		- Implemented to Production (LIVE)
+		
+		- Monitor and Maintain
+	
+	
+	- Waterfall Model ::
+		- It is Top-Down Approach - Linear Development Process 
+		- Monolith Application Architecture
+		- Tightly coupled
+	
+			Project: Web Applications --> Online User Registration System
+							- Functions/Modules 
+								- UI Design
+								- Database Design 
+								- User Sign-Up 
+								- User Sign-In 
+								- Update/Track User Activies 
+								
+								- New Update User Profile
+		
+	
+		Core_Project:
+		
+			- Requirement Analysis 		--> 8 Months 
+			
+			- Design & Document 
+			
+			- Code & Development
+			
+			- Test 
+			
+			- Implemented to Production (LIVE)
+			
+			- Monitor and Maintain	
+		
+		
+		Enhancement_Project:	- New Update User Profile
+		
+			- Requirement Analysis 		--> 8 Months 
+			
+			- Design & Document 
+			
+			- Code & Development
+			
+			- Test 
+			
+			- Implemented to Production (LIVE)
+			
+			- Monitor and Maintain	
+		
+	
+	AGILE Methodologies ::::
+	
+			Project: Web Applications --> Online User Registration System
+							- Functions/Modules - Iterations :
+								- UI Design
+								- Database Design 
+								- User Sign-Up 
+								- User Sign-In 
+								- Update/Track User Activies 
+								
+								- New Update User Profile	
+	
+	Iteration 1: UI Design
+	
+		- Requirement Analysis 
+		
+		- Design & Document 
+		
+		- Code & Development
+		
+		- Test 
+		
+		- Implemented to Production with proper approval(LIVE)	
+
+
+	Iteration 2: Database Design 
+	
+		- Requirement Analysis 
+		
+		- Design & Document 
+		
+		- Code & Development
+		
+		- Test 
+		
+		- Implemented to Production with proper approval(LIVE)
+		
+
+	Iteration nth : New Update User Profile	
+	
+		- Requirement Analysis 
+		
+		- Design & Document 
+		
+		- Code & Development
+		
+		- Test 
+		
+		- Implemented to Production with proper approval(LIVE)
+		
+		
+		Using AGILE Methodologies :
+		
+			We can able to achieve:
+			
+				- Continuous Development
+				
+				- Continuous Integration 
+				
+				- Continuous Testing 
+				
+				- Continuous Delivery
+					- It is the process to release the changes to production environment.
+					- Expects the Manual Approvals 
+				
+			We cannot achieve :
+			
+				- Continuous Deployment 
+					- It is the process to release the changes to production environment.
+					- It Never expect any Manual intervension/Approvals 
+					
+					
+	- DevOps ::::
+	
+		- DevOps is a Software Development Strategy/Process, which helps to promote the collaboration between the teams like Development Team and the Operations Team to achieve Continuous Development, Continuous Integration, Continuous Testing, Continuous Delivery, Continuous Deployment and Continuous Monitoring in a more automated fashion.
+		
+	
+	- How to Implement DevOps? :::
+	
+		- Teams:
+		
+			- DevOps Team 
+				- Infra-Structure Management Team - Create Servers/Configure Servers - 200 Test Servers 
+				- Application Development Team 
+				- Testing Team 
+				- Release Management Team 
+				- Production Support Team 
+				- Production Monitoring Team 
+				- IT Security Team
+				
+				
+		- Environments :
+		
+			Non-Prod Environments								Production Environments
+			
+				- Dev 
+				
+				- Build 
+				
+				- Test 
+					- QA 
+					
+					- UAT 			-------------------->			Production Servers
+					
+					
+		- Application Architecture :	Application Owners/Architects
+
+			- Monolith Application Architecture :
+			
+				- These are Tightly Coupled Applications
+				- All the Functions/Modules and Dependencies are Tightly coupled
+				- With this, we can achieve just Continuous Delivery. We cannot achieve Continuous Deployment
+			
+			
+			- Micro-Service Based Application Architecture :
+			
+				- These are loosely Coupled Application Architecture
+				- Each and every function is considered as a Micro-Service
+				- Each Micro-Service can be independenly development and deployed to production
+				- With this, we can achieve Continuous Deployment
+
+				
+				
+				
+		- DevOps Stages:
+		
+			- Continuous Development :::
+			
+				- It is the capability of any Application Development Team to Continuously Develop code changes.
+				- It is a process that is used to improve the Developers' productivity.
+				
+				Role of the Developer :
+				
+					- Understand the Requirement and Create the Source Code - Java/.Net/Python				
+					
+					- Created the Source Code :
+					
+				Manual Activities :::
+				
+					- Build Application
+						- Process to compile and create the artifacts(Binaries - *.war/*.jar/*.exec/*.dll
+					- Unit Testing
+					- Promote the Changes for further Testing Environments
+					- Notify the Testing Team thru emails
+				
+				Using DevOps Approach :::
+				
+					Automate :::
+						- Build Application
+							- Process to compile and create the artifacts(Binaries - *.war/*.jar/*.exec/*.dll
+						- Unit Testing
+						- Promote the Changes for further Testing Environments
+						- Notify the Testing Team thru emails	
+
+					- Created the Source Code  - Java/.Net/Python
+					- Save the Source Code in the Source Code Repositories(GitHub)
+					
+				Tools ::
+				
+					- IDEs - Integrated Development Environments(Eclipse, Pycharm, IntelliJ, Visual Studio ,Visual Studio Code)
+					- GIT, GITHUB Repositories
+					- Build Tools, Unit Testing 
+					
+			
+			- Continuous Integration ::: 
+			
+				- It is the Capability of the Application Development Team to Continuously integrate their changes for further testing.
+			
+				Automate :::
+						- Build Application
+							- Process to compile and create the artifacts(Binaries - *.war/*.jar/*.exec/*.dll)
+						- Unit Testing
+						- Promote the Changes for further Testing Environments
+						- Notify the Testing Team thru emails	
+	
+
+				- Tools :
+					- IDEs - Integrated Development Environments(Eclipse, Pycharm, IntelliJ, Visual Studio ,Visual Studio Code)
+					- GIT, GITHUB Repositories
+					- Build Tools, Unit Testing
+					- Docker, Ansible, Kubernetes 
+					- Jenkins
+					
+			
+			- Continuous Testing :::
+			
+				- It is the capability of the Testing Team to Continuously Test the Changes 
+				- Test Cases/Test Scenarios - Test Reports 
+				
+				- Tools :
+				
+					- TestNG, Selenium
+					- Jenkins 
+					
+					
+Next :::
+			
+			- Continuous Delivery / Deployment
+			
+			- Continuous Monitoring
