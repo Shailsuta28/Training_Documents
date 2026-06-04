@@ -1,0 +1,78 @@
+######################
+Day 3 - 4th June 2026
+######################
+
+Module 2 : Fundamentals of Linux Operating System:
+
+	Based on DevOps Perspective!
+
+		Overview of Linux
+		Linux Architecture
+		Linux Distributions
+		Basic Linux Commands
+		File Permission Management
+		User Creation
+		Shell Scripts
+		SSH and VI Utility		
+		
+	- As a DevOps Team we can Manage the Linux Machines
+	
+		- Package Management 
+		- File Management 
+		- User Management 
+		- Access Management 
+		- Remote Servers Management 
+		- Process Automation(Shell Scripting)	
+		
+		
+	- Lab Environment :
+	
+		- AWS Cloud Platform:
+		
+			- To Create Linux based Virtual Machines - EC2 Instances
+			
+Pre-requisites:
+
+	1. Enable AWS Cloud Platform :
+	
+	2. Create AWS EC2 Instances based on Linux Ubuntu Distribution.
+	
+	3. Connect to EC2 Instance :
+	
+	4. Login to EC2 instance 
+	
+	
+	- Access AWS Services using AWS Console :::
+	
+	1. Create an AWS Account ::
+	
+			1. Create a free tier account on AWS Cloud  		# EC2 Service to create Virtual Machines 
+			
+				- https://aws.amazon.com/console/
+				
+				- https://aws.amazon.com/resources/create-account/
+				
+				- https://aws.amazon.com/resources/create-account/
+				
+					- Active Email_ID 
+					- Active Mobile Number 
+					- Active Credit/Debit Card Number enable with International Transaction
+					
+					- PAN Card Number
+					
+				- Login to AWS Management Console using root_user_id(Email_ID) & password
+					- Create MFA - Two-way Authentication 
+					
+						- Install google authenticator App on your mobile phone
+						
+				- Create AWS EC2 Instances - Virtual Machines (Lab Environments)
+				
+	2. Login to AWS Console as a root user.(EMail_ID & Password)
+	
+	3. Explore the AWS Dashboard & Services 
+		
+	4. EC2 Service		==> Used to Create Computing Environment
+	
+	5. Create EC2 Instances :::::
+	
+		-> Linux Ubuntu Machines: 24.04 LTS
